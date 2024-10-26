@@ -1,0 +1,104 @@
+@media screen and (max-width: 520px) {
+    header {
+     flex-direction: column;
+        padding: 0;
+    }
+    header div i {
+        visibility: visible;
+    }
+    header div{
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    header nav{
+        display: none;
+        width: 100%;
+    }
+
+    .menu_mobile ul {
+        background-color: var(--rojo);
+        padding: 25px 0;
+        gap: 0;
+        flex-direction: column;
+    }
+    .menu_mobile ul li{
+        padding: 5px 0;
+        margin: 0 20px;
+        border-bottom: 2px dotted white;
+    }
+    .menu_mobile ul a {
+        width: 100%;
+        color: whitesmoke;
+        border-bottom: 0;
+        display: inline-block;
+    }
+    header ul li:hover a {
+        font-weight: 500;
+        border-bottom: 0;
+    }
+    .hero div {
+        padding: 20px 50px;
+        background-color: var(--rojo_transparentoso);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+
+    .hero .filter {
+        display: none;
+    }
+    .hero div h1 {
+        color: whitesmoke;
+        text-align: center;
+    }
+    .hero div p{
+        display: none;
+    }
+    .servicios .principal{
+        flex-direction: column;
+        align-items: center;
+    }
+    .servicios .principal article {
+        width: 80%;
+        padding: 40px;
+        box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+        -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+        -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    }
+    .gallery {
+        flex-direction: column-reverse;
+    }
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    footer {
+        margin: 0 auto;
+        padding: 0;
+    }
+    footer .informacion {
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconos i{
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+        color: var(--rojo);
+        border-radius: 50%;
+        border: 1px solid lightgrey;
+    }
+    footer .iconos{
+        margin: 0;
+
+    }
+    footer .informacion p{
+        display: none;
+    }
+}
